@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+
+
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pale: hsl(30, 54%, 90%);
+  --light-gray: hsl(30, 18%, 87%);
+  --stone-brown: hsl(30, 10%, 34%);
+  --dark-brown: hsl(24, 5%, 18%);
+  --brown: hsl(14, 45%, 36%);
+  --magenta: hsl(332, 51%, 32%);
+  --white-pink: hsl(330, 100%, 98%);
+
+}
