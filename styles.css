@@ -1,18 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 :root {
   --white: hsl(0, 0%, 100%);
-  --light-pale: hsl(30, 54%, 90%);
-  --light-gray: hsl(30, 18%, 87%);
-  --stone-brown: hsl(30, 10%, 34%);
-  --dark-brown: hsl(24, 5%, 18%);
+  --pale: hsl(30, 54%, 90%);
+  --darkerPale: hsl(30, 18%, 87%);
+  --oakBrown: hsl(30, 10%, 34%);
+  --spruceBrown: hsl(24, 5%, 18%);
   --brown: hsl(14, 45%, 36%);
-  --magenta: hsl(332, 51%, 32%);
-  --white-pink: hsl(330, 100%, 98%);
+  --pink: hsl(330, 100%, 98%);
+  --darkPink: hsl(332, 51%, 32%); 
 
+}
+
+body {
+  font-family: Outfit;
+  background-color: var(--pale);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.container {
+  background-color: white;
+  margin-top: 80px;
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+.image {
+  object-fit: cover;
+  height: 250px;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.title {
+  align-self: flex-start;
+  margin-left: 25px;
+  color: var(--spruceBrown);
+  margin-bottom: 0;
+  font-family: Young Serif;
+  letter-spacing: 1px;
+  
+}
+
+.para {
+  width: 92%;
+  color: var(--oakBrown);
+  margin-top: 0;
+  font-size: 16px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.pinkBox {
+  background-color: var(--pink);
+  width: 90%;
+  height: 180px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.pinkBox-title {
+  font-size: 20px;
+  font-family: Young Serif;
+  color: var(--darkPink)
+}
+
+.pinkBox-text {
+  margin-left: 5px;
+  color: var(--oakBrown);
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.ingredientBox {
+  width: 90%;
+  border-bottom: 2px solid lightgray;
+}
+
+.ingredientBox-title {
+  font-size: 30px;
+  color: var(--brown);
+  font-family: Young Serif;
+  margin-bottom: 20px;
+}
+
+.ingredientBox-text {
+  line-height: 20px;
+  color: var(--spruceBrown);
+  margin-left: 8px;
+  margin-top: 0;
+}
+
+.instructionBox {
+  width: 90%;
+  margin-top: 0;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 30px;
+}
+
+.instructionBox-text {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 0;
+  
+}
+
+.instruction {
+  margin-left: 20px;
+  align-self: baseline;
+  color: var(--oakBrown);
+}
+
+.number {
+  align-self: baseline;
+  color: var(--brown);
+}
+
+.margin-down {
+  margin-bottom: 0;
+}
+
+.nutritionBox {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nutritionBox-subtitle {
+  color: var(--oakBrown)
+}
+.nutritionBox-table {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 200px;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
